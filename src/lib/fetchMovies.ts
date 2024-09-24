@@ -1,6 +1,8 @@
 // lib/fetchMovies.ts
 const API_KEY = process.env.NEXT_PUBLIC_OMDB_API_KEY;
 
+console.log("API_KEY", API_KEY);
+
 export interface Movie {
   Poster: string;
   Title: string;
